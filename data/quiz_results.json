@@ -1,0 +1,283 @@
+[
+  {
+    "id": "res-1793701890953-jveii",
+    "studentName": "Elena Test",
+    "avatar": "🦉",
+    "score": 29000,
+    "correctCount": 29,
+    "totalQuestions": 30,
+    "accuracy": 97,
+    "maxStreak": 15,
+    "timeTakenSec": 320,
+    "date": "2026-11-03T10:31:30.953Z",
+    "answers": {}
+  },
+  {
+    "id": "demo-1",
+    "studentName": "Lucía M. (Demo)",
+    "avatar": "🦊",
+    "score": 28400,
+    "correctCount": 28,
+    "totalQuestions": 30,
+    "accuracy": 93,
+    "maxStreak": 12,
+    "timeTakenSec": 412,
+    "date": "2026-11-03T08:31:23.083Z",
+    "answers": {
+      "1": {
+        "selected": "b",
+        "correct": true
+      },
+      "2": {
+        "selected": "d",
+        "correct": true
+      },
+      "3": {
+        "selected": "a",
+        "correct": true
+      },
+      "4": {
+        "selected": "c",
+        "correct": true
+      },
+      "5": {
+        "selected": "b",
+        "correct": true
+      },
+      "6": {
+        "selected": "d",
+        "correct": true
+      },
+      "7": {
+        "selected": "c",
+        "correct": true
+      },
+      "8": {
+        "selected": "a",
+        "correct": true
+      },
+      "9": {
+        "selected": "b",
+        "correct": true
+      },
+      "10": {
+        "selected": "d",
+        "correct": true
+      },
+      "11": {
+        "selected": "a",
+        "correct": true
+      },
+      "12": {
+        "selected": "c",
+        "correct": true
+      },
+      "13": {
+        "selected": "d",
+        "correct": true
+      },
+      "14": {
+        "selected": "a",
+        "correct": false
+      },
+      "15": {
+        "selected": "a",
+        "correct": true
+      },
+      "16": {
+        "selected": "c",
+        "correct": true
+      },
+      "17": {
+        "selected": "a",
+        "correct": false
+      },
+      "18": {
+        "selected": "b",
+        "correct": true
+      },
+      "19": {
+        "selected": "a",
+        "correct": true
+      },
+      "20": {
+        "selected": "c",
+        "correct": true
+      },
+      "21": {
+        "selected": "b",
+        "correct": true
+      },
+      "22": {
+        "selected": "d",
+        "correct": true
+      },
+      "23": {
+        "selected": "a",
+        "correct": true
+      },
+      "24": {
+        "selected": "c",
+        "correct": true
+      },
+      "25": {
+        "selected": "b",
+        "correct": true
+      },
+      "26": {
+        "selected": "d",
+        "correct": true
+      },
+      "27": {
+        "selected": "c",
+        "correct": true
+      },
+      "28": {
+        "selected": "a",
+        "correct": true
+      },
+      "29": {
+        "selected": "b",
+        "correct": true
+      },
+      "30": {
+        "selected": "d",
+        "correct": true
+      }
+    }
+  },
+  {
+    "id": "demo-2",
+    "studentName": "Mateo R. (Demo)",
+    "avatar": "🦁",
+    "score": 24200,
+    "correctCount": 25,
+    "totalQuestions": 30,
+    "accuracy": 83,
+    "maxStreak": 8,
+    "timeTakenSec": 465,
+    "date": "2026-11-03T06:31:23.083Z",
+    "answers": {
+      "1": {
+        "selected": "b",
+        "correct": true
+      },
+      "2": {
+        "selected": "d",
+        "correct": true
+      },
+      "3": {
+        "selected": "b",
+        "correct": false
+      },
+      "4": {
+        "selected": "c",
+        "correct": true
+      },
+      "5": {
+        "selected": "b",
+        "correct": true
+      },
+      "6": {
+        "selected": "d",
+        "correct": true
+      },
+      "7": {
+        "selected": "c",
+        "correct": true
+      },
+      "8": {
+        "selected": "a",
+        "correct": true
+      },
+      "9": {
+        "selected": "b",
+        "correct": true
+      },
+      "10": {
+        "selected": "c",
+        "correct": false
+      },
+      "11": {
+        "selected": "a",
+        "correct": true
+      },
+      "12": {
+        "selected": "c",
+        "correct": true
+      },
+      "13": {
+        "selected": "d",
+        "correct": true
+      },
+      "14": {
+        "selected": "b",
+        "correct": true
+      },
+      "15": {
+        "selected": "c",
+        "correct": false
+      },
+      "16": {
+        "selected": "c",
+        "correct": true
+      },
+      "17": {
+        "selected": "d",
+        "correct": true
+      },
+      "18": {
+        "selected": "b",
+        "correct": true
+      },
+      "19": {
+        "selected": "a",
+        "correct": true
+      },
+      "20": {
+        "selected": "c",
+        "correct": true
+      },
+      "21": {
+        "selected": "b",
+        "correct": true
+      },
+      "22": {
+        "selected": "b",
+        "correct": false
+      },
+      "23": {
+        "selected": "a",
+        "correct": true
+      },
+      "24": {
+        "selected": "c",
+        "correct": true
+      },
+      "25": {
+        "selected": "b",
+        "correct": true
+      },
+      "26": {
+        "selected": "d",
+        "correct": true
+      },
+      "27": {
+        "selected": "c",
+        "correct": true
+      },
+      "28": {
+        "selected": "b",
+        "correct": false
+      },
+      "29": {
+        "selected": "b",
+        "correct": true
+      },
+      "30": {
+        "selected": "d",
+        "correct": true
+      }
+    }
+  }
+]

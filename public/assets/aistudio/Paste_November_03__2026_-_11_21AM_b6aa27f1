@@ -1,0 +1,335 @@
+PROMP PARA APLICACIÓN DE PREGUNTAS Y RESPUESTAS CON BASE DE DATOS
+
+Actúa como un Desarrollador Web Full-Stack Senior, Experto en Arquitectura de Bases de Datos sencillas y Especialista en Gamificación Educativa (EdTech).
+
+Necesito que generes el código fuente completo, moderno, funcional, limpio y autocontenido (HTML5, Tailwind CSS vía CDN y JavaScript modular) de una Aplicación Web Educativa Gamificada tipo Kahoot/Quizizz orientada a dispositivos móviles (Mobile Learning). Todo debe venir integrado en un único archivo de código listo para usarse.
+
+La aplicación debe personalizarse estrictamente con los siguientes parámetros elegidos por la docente:
+
+1. TEMÁTICA E IDENTIDAD VISUAL PERSONALIZADA:
+- Tema del juego: [Violencia Sexual y Adolescente].
+- Paleta de Colores y Estilo Visual: [Elegante con todos en degradado morado y azulado]. La interfaz debe aplicar estos colores de forma predominante.
+- Emojis e Iconografía Dinámica: La interfaz debe integrar de forma automática emojis y elementos gráficos adaptados a la temática elegida.
+
+2. 🔴 BASE DE DATOS ULTRA-SIMPLE Y EN LA NUBE (NÚCLEO DEL PROYECTO):
+- Como las usuarias no tienen conocimientos avanzados de programación, programa la aplicación utilizando un sistema de base de datos ligero y accesible (como almacenamiento remoto conectado a un servicio tipo SheetDB/Google Sheets o una persistencia robusta integrada) para que los datos de los alumnos que juegan desde el móvil viajen automáticamente a la nube.
+- Cada vez que un alumno responda y finalice, sus datos (nombre, aciertos, puntuación y racha) deben registrarse para que la profesora pueda consultarlos de forma visual desde su panel.
+
+3. CONTROL DE ACCESO POR ROLES Y SEGURIDAD:
+- Pantalla de inicio con selección clara de perfil: "Modo Alumno" y "Panel Docente".
+- Acceso al "Panel Docente" protegido obligatoriamente mediante una ventana emergente que pida una contraseña (clave por defecto: 'profe2026').
+
+4. MÓDULO DEL ALUMNO (EXPERIENCIA DE JUEGO):
+- Registro inicial con el nombre o alias del alumno.
+- Sistema de preguntas tipo test (4 opciones: A, B, C, D) adaptadas a la temática: [Preguntas 1 a 10
+Pregunta 1: Según la Ley Orgánica 8/2021 (LOPIVI), ¿cómo se define la violencia contra la infancia y la adolescencia?
+a)	Solo la acción física intencionada que una persona adulta ejerce contra un menor de edad.
+
+b)	Toda acción, omisión o trato negligente que priva al menor de sus derechos y bienestar o interfiere su desarrollo, sea cual sea su forma o medio.
+
+c)	Únicamente las conductas que estén tipificadas como delito en el Código Penal contra menores.
+
+d)	Todo acto producido en el ámbito familiar que cause lesiones físicas o psíquicas acreditadas al menor.
+Respuesta correcta: b
+Explicación didáctica: La LOPIVI adopta un concepto amplio: incluye acciones, omisiones y trato negligente, con independencia de la forma y del medio de comisión, también el digital. Las otras opciones restringen el concepto a la violencia física, a la penal o a la familiar, cuando la ley abarca todos los ámbitos.
+Pregunta 2: ¿Cuál de las siguientes descripciones corresponde al concepto de «buen trato» que sirve de punto de partida de la LOPIVI?
+a)	El que se limita a evitar cualquier agresión física y a sancionar a quien la comete.
+
+b)	El que sustituye la participación del menor por la decisión de las personas adultas responsables.
+
+c)	El que se centra en la corrección de conductas mediante normas disciplinarias estrictas.
+
+d)	El que respeta los derechos fundamentales y promueve el respeto mutuo, la dignidad, la convivencia democrática y la solución pacífica de conflictos.
+Respuesta correcta: d
+Explicación didáctica: El buen trato es un enfoque activo y positivo, basado en los derechos fundamentales de niños, niñas y adolescentes, la igualdad de oportunidades y la no discriminación. No se reduce a evitar agresiones ni a disciplinar, ni excluye la participación del menor.
+Pregunta 3: Según el artículo 15 de la LOPIVI, ¿quién está obligado a comunicar los indicios de una situación de violencia sobre una persona menor de edad?
+a)	Toda persona que advierta esos indicios, de forma inmediata y a la autoridad competente.
+
+b)	Solo los profesionales sanitarios y docentes que atiendan al menor en su trabajo.
+
+c)	Únicamente los progenitores o representantes legales del menor afectado.
+
+d)	Las personas que tengan certeza plena de que los hechos son constitutivos de delito.
+Respuesta correcta: a
+Explicación didáctica: El deber de comunicación general recae sobre toda la ciudadanía y basta con advertir indicios, no hace falta certeza. Si los hechos pudieran ser delito, se comunica a las Fuerzas y Cuerpos de Seguridad, al Ministerio Fiscal o a la autoridad judicial, sin perjuicio de atender de inmediato a la víctima.
+Pregunta 4: Una orientadora de un centro escolar detecta indicios de una posible situación de violencia hacia un alumno. Conforme al deber de comunicación cualificado, ¿qué debe hacer?
+a)	Esperar a confirmar los hechos con una investigación interna antes de informar a nadie.
+
+b)	Informar únicamente a la dirección del centro, que decidirá si lo comunica fuera.
+
+c)	Comunicarlo de inmediato a los servicios sociales competentes y, si la salud o seguridad del menor está amenazada, a las Fuerzas y Cuerpos de Seguridad y/o al Ministerio Fiscal.
+
+d)	Comunicarlo a la familia y esperar a que esta decida si presenta denuncia.
+Respuesta correcta: c
+Explicación didáctica: El artículo 16 exige a quienes trabajan con menores comunicar de forma inmediata a los servicios sociales y, ante riesgo para la salud o seguridad, también a las Fuerzas y Cuerpos de Seguridad y/o al Ministerio Fiscal. No se puede demorar la comunicación ni dejarla en manos de terceros.
+Pregunta 5: Un profesional que trabaja con menores advierte una posible infracción de la normativa de protección de datos personales de un niño. ¿A quién debe comunicarlo de forma inmediata?
+a)	Al Defensor del Pueblo.
+
+b)	A la Agencia Española de Protección de Datos.
+
+c)	Al Consejo General del Poder Judicial.
+
+d)	Al Observatorio de la Infancia.
+Respuesta correcta: b
+Explicación didáctica: El artículo 16 de la LOPIVI establece que las posibles infracciones de la normativa de protección de datos de personas menores de edad se comunican de inmediato a la Agencia Española de Protección de Datos. Los otros organismos existen, pero no son el destinatario previsto para este supuesto.
+Pregunta 6: Según el artículo 17 de la LOPIVI, ¿cómo pueden comunicar una situación de violencia los propios niños, niñas y adolescentes que la sufren o la presencian?
+a)	Solo a través de sus representantes legales y con su autorización expresa.
+
+b)	Únicamente ante el Ministerio Fiscal y una vez cumplidos los catorce años.
+
+c)	Solo en el ámbito del centro escolar, ante el coordinador de bienestar.
+
+d)	Personalmente o a través de sus representantes legales, ante servicios sociales, Fuerzas y Cuerpos de Seguridad, Ministerio Fiscal o autoridad judicial.
+Respuesta correcta: d
+Explicación didáctica: La ley reconoce al menor la posibilidad de comunicar por sí mismo, sin depender de un adulto, y obliga a las administraciones a ofrecer mecanismos seguros, accesibles y adaptados, como líneas telefónicas gratuitas de ayuda. No fija edad mínima ni limita el canal a un único organismo.
+Pregunta 7: Una persona descubre en Internet un contenido que constituye una forma de violencia contra un menor. Según el artículo 18 de la LOPIVI, ¿qué obligación tiene?
+a)	Borrarlo por su cuenta y no hacer ninguna otra comunicación.
+
+b)	Compartirlo en redes para que otros usuarios puedan denunciarlo.
+
+c)	Comunicarlo a la autoridad competente y, si pudiera ser delito, a las Fuerzas y Cuerpos de Seguridad, al Ministerio Fiscal o a la autoridad judicial.
+
+d)	Guardarlo y esperar a que lo reclame el menor afectado.
+Respuesta correcta: c
+Explicación didáctica: La obligación alcanza a cualquier persona, física o jurídica, que advierta contenidos ilícitos en Internet. Difundirlos o actuar por cuenta propia puede aumentar el daño a la víctima y entorpecer la investigación.
+Pregunta 8: ¿Qué condición tiene el personal funcionario de los servicios sociales cuando ejerce sus funciones de protección de niños, niñas y adolescentes?
+a)	La de agente de la autoridad, pudiendo solicitar la colaboración de las Fuerzas y Cuerpos de Seguridad y de los servicios sanitarios.
+
+b)	La de mero auxiliar administrativo sin capacidad de pedir colaboración a otros servicios.
+
+c)	La de representante legal del menor mientras dure la intervención.
+
+d)	La de perito judicial con facultad para dictar medidas cautelares.
+Respuesta correcta: a
+Explicación didáctica: La LOPIVI otorga la condición de agente de la autoridad a este personal funcionario, lo que le permite solicitar apoyo policial, sanitario o de cualquier servicio público necesario. No es representante legal del menor ni dicta medidas judiciales.
+Pregunta 9: ¿Cómo deben estar constituidos preferentemente los equipos de intervención de los servicios sociales que trabajan en violencia sobre personas menores de edad?
+a)	Por profesionales de la medicina, la enfermería y la farmacia.
+
+b)	Por profesionales de la educación social, la psicología y el trabajo social y, cuando sea necesario, la abogacía.
+
+c)	Por profesionales de la criminología, la sociología y la economía.
+
+d)	Por personal voluntario de entidades del tercer sector coordinado por la policía.
+Respuesta correcta: b
+Explicación didáctica: La ley prevé equipos multidisciplinares y especializados, formados preferentemente por educación social, psicología y trabajo social, con apoyo jurídico cuando sea necesario. La salud interviene como ámbito coordinado, no como núcleo de estos equipos.
+Pregunta 10: ¿Cómo se denomina el registro en el que se incorporan los datos estadísticos de casos de violencia contra la infancia procedentes de los servicios sociales y de las entidades públicas de protección?
+a)	Registro Central de Penados.
+
+b)	Registro Civil de Menores.
+
+c)	Registro Unificado de Violencia Escolar.
+
+d)	Registro Unificado de Servicios Sociales sobre Violencia contra la Infancia (RUSSVI).
+Respuesta correcta: d
+Explicación didáctica: El RUSSVI es el antiguo Registro Unificado de Maltrato Infantil, que pasó a esta denominación con la LOPIVI. Los demás registros existen, pero tienen otra finalidad (antecedentes penales, estado civil o ámbito escolar).
+Preguntas 11 a 20
+Pregunta 11: Cuando un profesional detecta precozmente una situación de violencia sobre una persona menor de edad, ¿a quién debe comunicárselo en primer lugar según la LOPIVI?
+a)	A los progenitores o a quienes ejerzan la tutela, guarda o acogimiento, salvo que haya indicios de que ellos ejercen la violencia.
+
+b)	A los progenitores en todos los casos, sin excepción alguna, incluso si son sospechosos.
+
+c)	Únicamente al centro escolar, que decidirá si informa a la familia.
+
+d)	A los medios de comunicación locales, para sensibilizar a la comunidad sobre el caso.
+Respuesta correcta: a
+Explicación didáctica: La detección precoz debe comunicarse a quienes ejercen la tutela, guarda o acogimiento, pero existe una excepción clave: si hay indicios de que la violencia proviene de ellos, no se les informa, para no poner en riesgo al menor. Informar a los medios vulneraría la confidencialidad.
+Pregunta 12: ¿Qué se entiende por parentalidad positiva a los efectos de la LOPIVI?
+a)	El ejercicio de la patria potestad basado en la autoridad indiscutible de los progenitores.
+
+b)	La imposición de la custodia compartida cuando existe conflicto entre los progenitores.
+
+c)	El comportamiento parental basado en el interés superior del menor, que le permite crecer en un entorno afectivo y sin violencia y ser oído en lo que le afecta.
+
+d)	La delegación de la crianza en profesionales para evitar conflictos familiares.
+Respuesta correcta: c
+Explicación didáctica: La parentalidad positiva se centra en el interés superior del menor, el afecto, la ausencia de violencia y el derecho a expresar su opinión y participar. La propia ley aclara que no debe usarse en conflictos entre progenitores ni para imponer una custodia compartida no acordada.
+Pregunta 13: En los centros de protección de menores, ¿qué tipo de contención está expresamente prohibida?
+a)	La contención verbal mediante técnicas de desescalada.
+
+b)	La interposición física entre el menor y la persona en peligro.
+
+c)	La restricción de espacios cuando existe un riesgo grave e inminente.
+
+d)	La contención mecánica, que consiste en sujetar al menor a una cama articulada o a un objeto fijo.
+Respuesta correcta: d
+Explicación didáctica: La ley prohíbe la contención mecánica. La desescalada es la primera respuesta prevista, y la contención física (interposición, restricción de espacios o movimientos y, en última instancia, inmovilización) solo se admite de forma excepcional y como último recurso.
+Pregunta 14: ¿Cuál es el límite máximo de duración del aislamiento provisional de un menor en un centro de protección?
+a)	Seis horas, siempre que el menor esté acompañado.
+
+b)	Tres horas consecutivas, sin perjuicio de su derecho al descanso.
+
+c)	Veinticuatro horas, si lo autoriza la dirección del centro.
+
+d)	No existe límite temporal si se aplica como medida disciplinaria.
+Respuesta correcta: b
+Explicación didáctica: El aislamiento no puede exceder de tres horas consecutivas, se aplica solo para prevenir actos violentos, autolesiones o daños graves, y nunca como medida disciplinaria. Durante todo ese tiempo el menor debe estar acompañado o supervisado de forma continua.
+Pregunta 15: Según las orientaciones sobre señales de alerta, ¿por qué es un error considerar menos graves los síntomas que el menor dirige hacia su interior (interiorización)?
+a)	Porque el daño suele ser mayor y mucho más difícil de detectar, aunque cause menos molestias al entorno.
+
+b)	Porque los síntomas interiorizados siempre desaparecen solos con el paso del tiempo.
+
+c)	Porque solo los síntomas exteriorizados permiten confirmar que ha existido violencia.
+
+d)	Porque los síntomas interiorizados afectan únicamente al rendimiento escolar del menor.
+Respuesta correcta: a
+Explicación didáctica: Las personas adultas y el sistema de protección tienden a valorar más las conductas exteriorizadoras porque afectan al entorno, pero cuando el menor vuelca el malestar hacia dentro (por ejemplo, autolesiones o aislamiento) el daño es mayor y más difícil de ver. Por eso hay que atender a ambas tendencias.
+Pregunta 16: Cuando en un centro de protección se ha usado la fuerza al aplicar una medida de contención, ¿qué exige la ley en relación con la salud del menor?
+a)	Una valoración de la propia educadora del centro en un plazo de una semana.
+
+b)	Una exploración médica solo si el menor la solicita expresamente.
+
+c)	La exploración física por un facultativo médico en un máximo de 48 horas, con el correspondiente parte médico.
+
+d)	Una revisión psicológica en el plazo máximo de un mes.
+Respuesta correcta: c
+Explicación didáctica: Siempre que se haga uso de la fuerza, la exploración por un médico en un máximo de 48 horas es obligatoria y no depende de que el menor la pida. La medida también debe comunicarse de inmediato a la Entidad Pública y al Ministerio Fiscal y anotarse en el Libro Registro de Incidencias.
+Pregunta 17: En relación con el Registro Central de Delincuentes Sexuales y de Trata de Seres Humanos, ¿qué ocurre con los antecedentes que figuran como cancelados?
+a)	Impiden de forma definitiva el acceso a profesiones con contacto habitual con menores.
+
+b)	Deben comunicarse a la entidad empleadora durante cinco años más.
+
+c)	Obligan a cambiar al trabajador a un puesto sin contacto con menores.
+
+d)	No se toman en consideración para limitar el acceso y ejercicio de esas profesiones, oficios y actividades.
+Respuesta correcta: d
+Explicación didáctica: La ley limita el acceso a quien tenga antecedentes vigentes por delitos contra la libertad e indemnidad sexuales o de trata, pero los antecedentes cancelados no se tienen en cuenta. Los antecedentes vigentes sí impiden la contratación en actividades con contacto habitual con menores.
+Pregunta 18: ¿Quién aprueba la Estrategia nacional para la erradicación de la violencia sobre la infancia y la adolescencia y a propuesta de qué órgano?
+a)	El Congreso de los Diputados, a propuesta del Defensor del Pueblo.
+
+b)	El Gobierno, a propuesta de la Conferencia Sectorial de Infancia y Adolescencia.
+
+c)	El Ministerio Fiscal, a propuesta del Consejo General del Poder Judicial.
+
+d)	Cada comunidad autónoma, a propuesta de su entidad pública de protección.
+Respuesta correcta: b
+Explicación didáctica: La Estrategia, de carácter plurianual, la aprueba el Gobierno a propuesta de la Conferencia Sectorial de Infancia y Adolescencia y se acompaña de una memoria económica. Se elabora con la participación de niños, niñas y adolescentes a través del Consejo Estatal de Participación de la Infancia y de la Adolescencia.
+Pregunta 19: ¿Qué principio de la Estrategia obliga a los poderes públicos a prevenir, investigar, castigar y reparar los actos de violencia hacia la infancia, también en el contexto de actividades empresariales?
+a)	Diligencia debida.
+
+b)	Accesibilidad universal.
+
+c)	Participación y protagonismo.
+
+d)	Igualdad y no discriminación.
+Respuesta correcta: a
+Explicación didáctica: La diligencia debida exige actuar con rigor para prevenir, investigar, castigar y reparar la violencia. La accesibilidad universal se refiere a que los entornos y servicios sean accesibles para todos, la participación a escuchar al menor y la igualdad a no discriminar.
+Pregunta 20: A los efectos de la LOPIVI, ¿qué se consideran profesiones, oficios y actividades que implican contacto habitual con personas menores de edad?
+a)	Solo las retribuidas que se desarrollan en centros educativos o sanitarios.
+
+b)	Las que se ejercen de forma ocasional pero con alta responsabilidad sobre los menores.
+
+c)	Las retribuidas o no que conllevan un trato repetido, directo y regular, y no meramente ocasional, con menores, o que los tienen como destinatarios principales.
+
+d)	Solo aquellas que exigen una titulación universitaria vinculada a la infancia.
+Respuesta correcta: c
+Explicación didáctica: Lo decisivo es la naturaleza del trato (repetido, directo y regular), no el carácter remunerado ni la titulación. Esto incluye el voluntariado y el ámbito deportivo o de ocio, de modo que quienes participan en ellos deben acreditar la ausencia de antecedentes por delitos sexuales o de trata.
+Preguntas 21 a 30
+Pregunta 21: ¿Cuál es una de las funciones de la persona coordinadora de bienestar y protección del alumnado en un centro educativo?
+a)	Investigar por su cuenta los casos de violencia y sancionar a los alumnos implicados.
+
+b)	Promover planes de formación sobre prevención, detección precoz y protección dirigidos al personal del centro y al alumnado.
+
+c)	Sustituir a los servicios sociales en la valoración del riesgo de los menores.
+
+d)	Decidir si se comunica o no a las autoridades una sospecha de violencia.
+Respuesta correcta: b
+Explicación didáctica: El coordinador es un referente para las comunicaciones y promueve la formación, priorizando al profesorado que ejerce la tutoría y al alumnado. No sustituye a los servicios sociales ni puede decidir si se comunica una sospecha, porque ese deber recae en todo el personal.
+Pregunta 22: Según el Código Penal, el delito de contacto con un menor a través de internet, teléfono u otra tecnología («child grooming») se refiere a menores de qué edad?
+a)	Menores de trece años.
+
+b)	Menores de catorce años.
+
+c)	Menores de dieciocho años.
+
+d)	Menores de dieciséis años.
+Respuesta correcta: d
+Explicación didáctica: El Código Penal castiga a quien contacta por medios tecnológicos con un menor de dieciséis años y propone un encuentro para atentar contra su libertad sexual, acompañado de actos materiales de acercamiento. También castiga embaucarle para obtener material pornográfico o que le muestre imágenes de ese tipo.
+Pregunta 23: ¿Qué dos criterios se utilizan habitualmente en España para definir las conductas de abuso sexual infantil?
+a)	La existencia de coerción en la conducta impuesta al menor y la asimetría de edad.
+
+b)	La existencia de contacto físico y la reiteración de los episodios.
+
+c)	La denuncia previa de los hechos y la confesión del agresor.
+
+d)	El parentesco entre agresor y víctima y la existencia de lesiones.
+Respuesta correcta: a
+Explicación didáctica: Los criterios son la coerción (amenazas, autoridad, presión, engaño) y la asimetría de edad, que implica una diferencia de expectativas, conocimientos y experiencias que compromete la libertad del menor para consentir. Puede haber abuso sin contacto físico, sin lesiones y sin vínculo familiar.
+Pregunta 24: Una niña sufre abusos sexuales repetidos durante meses por parte de una persona conocida de su entorno. Según la frecuencia de los episodios, ¿cómo se clasifica esta violencia sexual?
+a)	Aguda.
+
+b)	Extrafamiliar.
+
+c)	Crónica.
+
+d)	Sin contacto físico.
+Respuesta correcta: c
+Explicación didáctica: La violencia sexual crónica se produce en más de una ocasión, generalmente por personas conocidas, y puede prolongarse durante largos periodos. La aguda es un episodio único, normalmente de un agresor desconocido. «Extrafamiliar» y «sin contacto físico» responden a otras clasificaciones (ámbito y tipo de contacto).
+Pregunta 25: ¿Cuál de estos ejemplos corresponde a victimización secundaria?
+a)	El daño psicológico directo que causa la agresión sufrida por la víctima.
+
+b)	Obligar a la víctima a relatar los hechos en repetidas ocasiones ante policía, juzgado y peritos.
+
+c)	El malestar que sufre la madre al conocer la agresión a su hija.
+
+d)	La estigmatización del agresor por parte de su entorno social.
+Respuesta correcta: b
+Explicación didáctica: La victimización secundaria deriva de la intervención de las instituciones: repetir el relato, cuestionar la credibilidad, demorar los procedimientos o no atender a la víctima en espacios adecuados. El daño directo del hecho es victimización primaria y el de familiares o allegados, terciaria.
+Pregunta 26: ¿A qué se refiere la victimización terciaria?
+a)	Al daño que causa el propio hecho delictivo a la víctima directa.
+
+b)	Al sufrimiento causado por la actuación poco cuidadosa de las instituciones.
+
+c)	A la repetición de la violencia por un mismo agresor a lo largo del tiempo.
+
+d)	A la victimización que sufren otras personas distintas de la víctima directa, como familiares y amistades.
+Respuesta correcta: d
+Explicación didáctica: La victimización terciaria alcanza a quienes rodean a la víctima, por ejemplo una madre que, tras la denuncia, atraviesa una ruptura de pareja y un fuerte malestar. Las otras opciones describen la victimización primaria, la secundaria y la reiteración de los abusos.
+Pregunta 27: En el marco de la prevención de la violencia sexual hacia la infancia, ¿qué caracteriza a la prevención secundaria?
+a)	Se dirige a toda la sociedad con campañas informativas generales.
+
+b)	Se aplica una vez ocurrido el abuso para tratar sus secuelas.
+
+c)	Se dirige a población con riesgo específico o mayor vulnerabilidad, para actuar antes de que se produzcan los abusos.
+
+d)	Se limita a sancionar penalmente a quienes cometen los abusos.
+Respuesta correcta: c
+Explicación didáctica: La prevención secundaria actúa sobre grupos con mayor riesgo antes de que haya violencia. La primaria informa y sensibiliza a toda la sociedad, y las medidas que actúan una vez producido el daño corresponden a la atención y reparación, no a esta prevención.
+Pregunta 28: Según el estudio de la Fundación ANAR citado en el material, ¿qué perfil predomina entre las personas agresoras sexuales de menores?
+a)	Personas del círculo de confianza del menor, en casi el 81 % de los casos.
+
+b)	Personas desconocidas para el menor, en más del 80 % de los casos.
+
+c)	Personas con trastornos mentales diagnosticados, en la mayoría de los casos.
+
+d)	Mujeres adultas del entorno escolar, en la mayoría de los casos.
+Respuesta correcta: a
+Explicación didáctica: Casi el 81 % de los agresores pertenece al círculo de confianza (49,2 % familiares), y el 95,8 % son varones. Esto desmonta el mito del agresor desconocido; además, el material insiste en que no existe un perfil único de agresor.
+Pregunta 29: Un niño cuenta espontáneamente a su tutora que ha sufrido abusos sexuales. ¿Cuál es una pauta de actuación adecuada?
+a)	Hacerle preguntas detalladas para aclarar todos los hechos cuanto antes.
+
+b)	Escucharle con atención y sin interrumpir, sin forzar el relato, y anotar después sus palabras literalmente, sin su presencia.
+
+c)	Explicarle las consecuencias que tendrá la denuncia para el agresor y para su familia.
+
+d)	Restar importancia a lo ocurrido para que no se sienta más angustiado.
+Respuesta correcta: b
+Explicación didáctica: Lo adecuado es la escucha activa, actuar con normalidad, no interrogar, desculpabilizar al menor y registrar literalmente lo dicho. Preguntar mucho puede confundirle o alterar su recuerdo; anticipar consecuencias o minimizar el sufrimiento también son errores que hay que evitar.
+Pregunta 30: Un profesional presencia directamente una agresión sexual a un menor. Según las pautas del material, ¿qué debe hacer?
+a)	Esperar a que el menor se lo cuente para valorar si es necesario intervenir.
+
+b)	Reunir primero a otros compañeros para decidir en equipo cómo proceder.
+
+c)	Interrogar al menor en el lugar para obtener todos los detalles y aportarlos a la policía.
+
+d)	Separar de inmediato al menor del agresor, llevarlo a un lugar tranquilo, avisar a la policía en el 112 y seguir sus indicaciones.
+Respuesta correcta: d
+Explicación didáctica: Ante una agresión presenciada la prioridad es proteger: separar al menor del agresor, ubicarlo en un espacio tranquilo sin otras personas, llamar al 112 y seguir las indicaciones del técnico, y después presentar denuncia. Esperar, deliberar o interrogar retrasa la protección y puede aumentar el daño.].
+- Explicaciones pedagógicas detalladas tras cada respuesta, la explicación didáctica debe darse después de que el alumno haya escogido una opción, hasta que no lo haga debe permanecer oculta.
+- Sistema de rachas de aciertos con efectos visuales animados (confeti) y gif populares de baile.
+- Minijuegos sorpresa y "chistes de claustro" o anécdotas divertidas contextualizadas al tema.
+
+5. MÓDULO DEL DOCENTE Y DASHBOARD ANALÍTICO:
+- Un panel privado protegido por contraseña que muestre en tiempo real las estadísticas guardadas en la base de datos: listado de alumnos participantes, puntuaciones globales y cuáles han sido las preguntas más falladas por la clase.
+
+ENTREGA:
+Proporciona absolutamente TODO el código fuente estructurado de principio a fin, sin puntos suspensivos ni abreviaturas, incluyendo comentarios claros en el código de cómo funciona el almacenamiento para que cualquier persona sin conocimientos técnicos pueda ponerlo en marcha fácilmente.
